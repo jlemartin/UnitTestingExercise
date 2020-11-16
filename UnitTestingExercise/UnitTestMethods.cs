@@ -49,5 +49,10 @@ namespace UnitTestingExercise
             var myName = "JOHN";
             return myName.ToLower();
         }
+
+        public int CanAdd(int x, int y)
+        {
+            return x + y;
+        }
     }
 }
